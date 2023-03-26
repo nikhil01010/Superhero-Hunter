@@ -1,0 +1,120 @@
+/* css stylesheet for all three pages index.html,index2.html and index3.html  */
+/*Use Google font */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Mono:wght@100&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+   
+    
+}
+body{
+    width: 100%;
+    background-image: url(342047.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+/*navbar css properties for all three pages*/
+nav{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color: white;
+}
+.brand-logo{
+    font-size: 2.5rem;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+/*css properties for index.html or home page*/
+
+
+#search-bar{
+    margin-top: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color:white;
+    box-shadow:10px 10px 12px -5px rgba(0,0,0,1);
+}
+
+#search-icon{
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#n1{
+    border-radius: 10rem;
+}
+
+#my-search{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.text-center{
+    color: rgb(255, 255, 255);
+}
+#cards-group{
+    margin: 50px 0px;
+    display: flex;
+    /* box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75); */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    margin: 20px;
+    cursor: pointer;
+}
+.card-body{
+    display: flex;
+   
+    justify-content: space-between;
+}
+.icon{
+    font-size: 1.5rem;
+}
+
+
+/*css properties for index2.html or hero details page */
+#hero-main{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #05A8AA;
+
+}
+#img{
+    width: 100%;
+    height: 100%;
+
+}
+#hero-details{
+    width: 70%;
+    height: 100%;
+
+}
+.heading{
+    border-radius: 10px;
+    background-color: #e9c46a;
+    padding: 5px 0px;
+}
+
+
+/*css properties for index3.html or favourite hero's page */
+#fv-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
